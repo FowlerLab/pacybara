@@ -6,7 +6,7 @@ Pacybara is a long-read barcode clustering method designed for multiplexed assay
 1. Pacybara is designed for high-performance compute (HPC) clusters running Slurm, PBS, or Univa Grid Engine.
     * If you do not have access to an HPC cluster, you can create one in the cloud, e.g. on [AWS](https://aws.amazon.com/blogs/compute/deploying-a-burstable-and-event-driven-hpc-cluster-on-aws-using-slurm-part-1/) or [GoogleCloud](https://cloud.google.com/hpc-toolkit/docs/quickstarts/slurm-cluster).
     * Alternatively, you may try the experimental single-instance version of pacybara. However, we strongly recommend using the HPC version to avoid excessively long runtimes.
-2. Install [`clusterutil`](https://github.com/jweile/clusterutil). This handles the abstraction between Slurm and PBS interfaces.
+2. Install [`clusterutil`](https://github.com/FowlerLab/clusterUtil). This handles the abstraction between Slurm and PBS interfaces.
 3. Download or clone the code repository:
     * Either via git: `git clone https://github.com/rothlab/pacybara.git`
     * Or as a simple download `wget https://github.com/rothlab/pacybara/archive/refs/heads/master.zip&&unzip master.zip`
