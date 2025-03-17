@@ -8,8 +8,8 @@ Pacybara is a long-read barcode clustering method designed for multiplexed assay
     * Alternatively, you may try the experimental single-instance version of pacybara. However, we strongly recommend using the HPC version to avoid excessively long runtimes.
 2. Install [`clusterutil`](https://github.com/FowlerLab/clusterUtil). This handles the abstraction between Slurm and PBS interfaces.
 3. Download or clone the code repository:
-    * Either via git: `git clone https://github.com/rothlab/pacybara.git`
-    * Or as a simple download `wget https://github.com/rothlab/pacybara/archive/refs/heads/master.zip&&unzip master.zip`
+    * Either via git: `git clone https://github.com/FowlerLab/pacybara.git`
+    * Or as a simple download `wget https://github.com/FowlerLab/pacybara/archive/refs/heads/master.zip&&unzip master.zip`
 4. Installation
     * Automatic installation (via conda and R):
         * Make sure anaconda (or miniconda) is installed.
